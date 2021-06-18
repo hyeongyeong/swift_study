@@ -27,8 +27,6 @@ struct CustomTabBar: View {
                     .clipShape(Circle())
                     .shadow(color: Color.black.opacity(0.05), radius: 5, x: 5, y: 5)
                     .shadow(color: Color.black.opacity(0.05), radius: 5, x: -5, y: -5)
-                
-                
             })
             .offset(y: -38)
             
